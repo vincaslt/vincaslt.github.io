@@ -1,0 +1,67 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: ShutUp&Code
+email: vincas.stonys@gmail.com
+description: Vincas Stonys' blog
+url: https://vincaslt.github.io/shutupandcode
+
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Europe/Vilnius
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Vincas Stonys
+  avatar: avatar.jpg
+  job: "Web Developer"
+  bio: "React/Redux enthusiast, software engineering student,
+    who likes coding, playing video games, watching movies or watching movies at his spare time."
+  email: vincas.stonys@gmail.com
+  disqus-shortname: vincasstonys
+  twitter: vincaslt
+  facebook: vincas.stonys
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: vincaslt
+  stackoverflow: 2650694/vincas-stonys
+  linkedin: vincas-stonys-4ab8039a
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
